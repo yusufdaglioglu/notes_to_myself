@@ -1,0 +1,58 @@
+---
+
+- no need
+? todo
+
+
+                                 all     fre
+1     akts                exft   1000    903     wstr_dt   blck       big
+2     akts(formattr)      ntf    30      6       kngst     blck       small
+?     islnd(formattr)     ?      ?       ?       ?         ?          ?
+9     bnk                 exft   120     61      sndsk     blck&red   small
+?     islnd               ?      ?       ?       ?         ?          ?
+?     dgs                 ?      ?       ?       ?         ?          ?
+10    cngz                exft   250     166     sndsk     gry        small
+5     byglu               ntf    930     830     wstr_dt   blck       big
+104   andrd               -      -       74      -         -          -
+102   hp_hd               ex4    1000    890     -         -          -
+101   hp_sd               ex4    250     187     -         -          -
+100   cloud               -      -               -         -          -
+
+---
+
+empty list
+
+3     akts               f32     4       4       -         blu   small
+4     work place         exft    15      15      tav       whit  small
+
+---
+
+CONTENT
+
+APPS CRTCL              every - except cloud
+APPS                    every - except (cloud & formattrs & android & hp_sd)
+BOK & SOURCES & FAMLY   every - except (formattrs & hp_sd)
+MSC & CODE              every - except (cloud & formattrs & hp_sd)
+PUBLIC                  only akts_1 & hp_hd & islnd
+VM                      only akts_1 & islnd & dgs & cngz & byglu & hp_hd
+RIPL                    every - except (formattrs)
+PHTS_1                  every - except (formattrs)
+PHTS_2                  every - except (formattrs)
+PHTS_3                  every - except (formattrs)
+PHTS_4                  every - except (formattrs)
+PHTS_5                  nowhere
+PHTS_PROFILE            every - except (formattrs)
+UPDATE_FAST             every - except (formattrs)
+UPDATE_SLOW             every - except (formattrs)
+TEMP                    only akts_1 & hp_hd & islnd
+
+---
+
+ON ROOT
+
+INFO__brand__external__colr__sze__frmt__any_keyword_other
+INFO__no_1
+INFO__BENI_OKU___READ_ME.txt (sadece önemliler için. sakın diğerlerine koyma.)
+INFO__bck_list
+
+---
